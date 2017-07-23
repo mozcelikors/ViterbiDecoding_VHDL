@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Mustafa\Documents\AlteraQuartus\ViterbiProject\simulation\modelsim
+Eviterbi_system_tb
+Z1 w1467796125
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Mustafa\Documents\AlteraQuartus\ViterbiProject\simulation\modelsim
+Z6 8C:/Users/Mustafa/Documents/AlteraQuartus/ViterbiProject/viterbi_system_tb.vhd
+Z7 FC:/Users/Mustafa/Documents/AlteraQuartus/ViterbiProject/viterbi_system_tb.vhd
+l0
+L18
+V4H2:TQeXgCUl=@VW0LIkT2
+!s100 ld7?:LWI9P:L]PQ3H^:L<2
+Z8 OV;C;10.1b;51
+31
+!i10b 1
+Z9 !s108 1500678925.177000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mustafa/Documents/AlteraQuartus/ViterbiProject/viterbi_system_tb.vhd|
+Z11 !s107 C:/Users/Mustafa/Documents/AlteraQuartus/ViterbiProject/viterbi_system_tb.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Astimulus_driver
+R2
+R3
+R4
+DEx4 work 17 viterbi_system_tb 0 22 4H2:TQeXgCUl=@VW0LIkT2
+l48
+L21
+VEAVHoK^GJ5dYUP4lA6X`O1
+!s100 Q?zPLB]`9VJUjD>U[1f=S0
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Eviterbidecoder
+Z14 w1463571321
+Z15 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 4g:dJAQHS=1ZPecTm0D481
+Z16 DPx10 cycloneiii 21 cycloneiii_components 0 22 :^R:9@XUd[_C7`o[C4oC]2
+Z17 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z18 DPx6 altera 11 dffeas_pack 0 22 T73L:@G^TMdR>En1ThD];2
+Z19 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+R3
+R4
+Z20 DPx6 altera 28 altera_primitives_components 0 22 hnH:]QOQ9jMhDh1Bz4eYD3
+R5
+Z21 8ViterbiProject_6_1200mv_85c_slow.vho
+Z22 FViterbiProject_6_1200mv_85c_slow.vho
+l0
+L36
+VPkXgYY[2fBPeBDBQ5S[KI2
+R8
+31
+Z23 !s108 1500678925.038000
+Z24 !s90 -reportprogress|300|-93|-work|work|ViterbiProject_6_1200mv_85c_slow.vho|
+Z25 !s107 ViterbiProject_6_1200mv_85c_slow.vho|
+R12
+R13
+!s100 8CSR3<>U;S:iJC5c4WFVO2
+!i10b 1
+Astructure
+R15
+R16
+R17
+R18
+R19
+R3
+R4
+R20
+DEx4 work 14 viterbidecoder 0 22 PkXgYY[2fBPeBDBQ5S[KI2
+l182
+L61
+VlOc;EWo8P6o_ZS7azWUSB3
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 =D28WW5Dc<FdbTCOjlI@o3
+!i10b 1

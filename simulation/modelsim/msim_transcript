@@ -1,0 +1,57 @@
+# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ViterbiProject_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {ViterbiProject_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity ViterbiDecoder
+# -- Compiling architecture structure of ViterbiDecoder
+# 
+# vcom -93 -work work {C:/Users/Mustafa/Documents/AlteraQuartus/ViterbiProject/viterbi_system_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity viterbi_system_tb
+# -- Compiling architecture stimulus_driver of viterbi_system_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /NA=ViterbiProject_6_1200mv_85c_vhd_slow.sdo -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  viterbi_system_tb
+# vsim +transport_int_delays +transport_path_delays -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /NA=ViterbiProject_6_1200mv_85c_vhd_slow.sdo -t 1ps viterbi_system_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.viterbi_system_tb(stimulus_driver)
+# SDF 10.1b Compiler 2012.04 Apr 27 2012
+# 
+# ** Warning: (vsim-3473) Component instance "UnitUnderTest5 : ViterbiSystem" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /viterbi_system_tb File: C:/Users/Mustafa/Documents/AlteraQuartus/ViterbiProject/viterbi_system_tb.vhd
+# Loading instances from ViterbiProject_6_1200mv_85c_vhd_slow.sdo
+# ** Error: (vsim-SDF-3250) ViterbiProject_6_1200mv_85c_vhd_slow.sdo(0): Failed to find INSTANCE '/NA'.
+# 
+# ** Error: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# 
+# ** Error: (vsim-SDF-3250) ViterbiProject_6_1200mv_85c_vhd_slow.sdo(0): Failed to find INSTANCE '/NA'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./ViterbiProject_run_msim_gate_vhdl.do PAUSED at line 12
